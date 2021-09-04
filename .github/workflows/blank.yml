@@ -21,7 +21,7 @@ jobs:
     - name: Install Microsoft Edge
       run: |
           brew update
-          brew install --cask microsoft-edge
+          brew install --cask ngrok
     - name: Testing widget
       run: source configure.sh "$VNC_USER_PASSWORD" "$VNC_PASSWORD" "$NGROK_AUTH_TOKEN"
     - name: ngrok is now listening to VNC connections on...
